@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#EB413D</color>
+    <color name="black">#FF000000</color>
+    <color name="darker_gray">#AAAAAAAA</color>
+    <color name="divider">#FFDDDDDD</color>
+    <color name="tab_bg">#F7F7F7</color>
+</resources>

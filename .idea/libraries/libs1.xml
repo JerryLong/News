@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Volley_libaray/libs/fastjson-1.1.20.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

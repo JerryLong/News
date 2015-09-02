@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/chat_view_a96"
+            android:icon="@drawable/night_base_action_bar_back_black"
+            android:showAsAction="always"
+            android:title="sss"/>
+    <item
+            android:id="@+id/action_edit"
+            android:icon="@drawable/ic_newspage_menu_moreoverflow"
+            android:showAsAction="always"
+            android:title="sss">
+        <menu>
+            <item
+                    android:id="@+id/sub_menu_ane"
+                    android:icon="@drawable/biz_news_newspage_share_icon"
+                    android:title="	  分享"/>
+            <item
+                    android:id="@+id/sub_menu_amq"
+                    android:icon="@drawable/biz_news_newspage_collect_icon"
+                    android:title="	  收藏"/>
+            <item
+                    android:id="@+id/sub_menu_anv"
+                    android:icon="@drawable/biz_news_newspage_screenshot_icon"
+                    android:title="	  态度截屏"/>
+            <item
+                    android:id="@+id/sub_menu_an9"
+                    android:icon="@drawable/biz_news_newspage_font_icon"
+                    android:title="	  正文字号"/>
+            <item
+                    android:id="@+id/sub_menu_an_"
+                    android:icon="@drawable/biz_main_menu_theme"
+                    android:title="	  夜间模式"/>
+        </menu>
+    </item>
+</menu>

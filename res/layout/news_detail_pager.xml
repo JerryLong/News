@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+    <TextView
+            android:id="@+id/news_listview_one_image_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sss"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"/>
+    <ImageView android:id="@+id/news_listview_one_image"
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:layout_below="@id/news_listview_one_image_title"
+               android:layout_margin="5dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/base_list_default_icon"
+            />
+    <TextView android:id="@+id/news_listview_one_image_digest"
+              android:layout_below="@id/news_listview_one_image"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingEnd="15dp"
+              android:ellipsize="end"
+              android:singleLine="true"
+              android:textColor="@color/darker_gray"
+              android:text="sssssssssssssssssssss"/>
+    <TextView android:id="@+id/news_listview_one_image_reply"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/news_listview_one_image_digest"
+              android:text="sssssss"
+              android:textColor="@color/darker_gray"
+              android:paddingEnd="5dp"
+              android:layout_alignParentEnd="true"/>
+</RelativeLayout>

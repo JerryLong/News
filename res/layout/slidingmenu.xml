@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/red">
+            <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/biz_pc_menu_icon"/>
+        </RelativeLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/tab_bg">
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                <ImageView android:id="@+id/mine_msg_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_message"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_msg_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="我的消息"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white">
+                <ImageView android:id="@+id/mine_read_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_read_icon"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_read_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="我的阅读"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="0.5dp"
+                          android:background="@color/tab_bg"/>
+                <ImageView android:id="@+id/mine_sc_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_fav_icon"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_sc_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="我的收藏"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="0.5dp"
+                          android:background="@color/tab_bg"/>
+                <ImageView android:id="@+id/mine_follow_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_tie_icon"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_follow_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="我的跟帖"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="0.5dp"
+                          android:background="@color/tab_bg"/>
+                <ImageView android:id="@+id/mine_money_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_goldmall"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_money_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="金币商城"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="0.5dp"
+                          android:background="@color/tab_bg"/>
+                <ImageView android:id="@+id/mine_thing_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_task"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_thing_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="我的任务"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="0.5dp"
+                          android:background="@color/tab_bg"/>
+                <ImageView android:id="@+id/mine_tips_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_wallet"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_tips_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="我的钱包"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white">
+                <ImageView android:id="@+id/mine_mail_image"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"
+                           android:layout_centerVertical="true"
+                           android:layout_marginLeft="10dp"
+                           android:src="@drawable/biz_pc_main_mail"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_toEndOf="@id/mine_mail_image"
+                          android:layout_marginLeft="10dp"
+                          android:layout_centerVertical="true"
+                          android:layout_height="wrap_content"
+                          android:text="我的邮箱"
+                          android:textSize="18sp"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

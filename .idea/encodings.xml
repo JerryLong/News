@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/dralong/adapter/NewsAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/adapter/TitleFragmentAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/fragment/NewsFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/news/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/tool/BaseTools.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/tool/Constants.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/util/ImageLoadUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/util/NetConnUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/dralong/view/TopTitleScrollView.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

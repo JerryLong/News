@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="androidimageslider_library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AndroidImageSlider_library/bin/androidimageslider_library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

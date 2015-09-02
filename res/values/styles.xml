@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBar.Solid.Blue" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="top_column_item_txt">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="mian_bottom_tab">
+        <item name="android:textSize">@dimen/bottom_tab__text</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <!--<item name="android:background">@drawable/home_btn_bg</item>-->
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@drawable/main_bottom_tab_text_color</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources>
